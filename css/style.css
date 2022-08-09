@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 232, 232);
+}
+.tituloProducto {
+    text-align: center;
+    background-color: rgb(245, 203, 124);
+}
+
+.card img {
+    border: solid 1px black;
+    width: 250px;
+    height: 300px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.vistaPrevia {
+    padding: 5px;
+}
+
+.agregar {
+    padding: 5px;
+}
